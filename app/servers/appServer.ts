@@ -1,4 +1,3 @@
-import 'express-async-errors';
 import '../utils/auth';
 import express from 'express';
 
@@ -46,3 +45,5 @@ async function initServer() {
     logger.info(`server is running at https://localhost:${PORT}`);
   });
 }
+
+init();
